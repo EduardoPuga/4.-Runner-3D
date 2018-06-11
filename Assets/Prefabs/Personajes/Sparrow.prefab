@@ -272,7 +272,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1680860869142394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: 0.85, z: 0}
+  m_LocalPosition: {x: -0.07, y: 3.53, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children:
   - {fileID: 4568144191212858}
@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb3673b641a05634d903dc5818192fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalSpeed: 3
+  verticalSpeed: 2.5
   anatomia: 2
   mainCamera: {fileID: 0}
 --- !u!137 &137610962614838924
@@ -491,7 +491,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -100232217
+  randomSeed: -510905334
   InitialModule:
     serializedVersion: 3
     enabled: 1

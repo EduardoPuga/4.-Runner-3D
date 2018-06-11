@@ -137,3 +137,5 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 28f2e6d1eed070c75d658fb7b6a475ef Assembly-CSharp.dll:.Scroll
 d8467ab81f86a1f9a4b6e64887010654 Assembly-CSharp.dll:.AspectUtility
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Pared
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Final
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Instrucciones

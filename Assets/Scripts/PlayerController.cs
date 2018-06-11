@@ -109,7 +109,8 @@ public class PlayerController :  MonoBehaviour  {
 //		Debug.Log ("Name " + col.gameObject.name);
 		counts = 0;
 		if (col.gameObject.name == "Pilar(Clone)" || col.gameObject.name == "Tronco(Clone)" || col.gameObject.name == "Bush(Clone)" 
-			|| col.gameObject.name == "Tree(Clone)" || col.gameObject.name == "Tree 2(Clone)" || col.gameObject.name == "Tree 3(Clone)") {
+			|| col.gameObject.name == "Tree(Clone)" || col.gameObject.name == "Tree 2(Clone)" || col.gameObject.name == "Tree 3(Clone)" 
+			|| col.gameObject.name == "Tree 4(Clone)") {
 			estadoHumano = 2;
 			if (estadoHumano == 2) {
 				Destroy (this.gameObject);

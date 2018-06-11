@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 81823039079738642}
   - component: {fileID: 114281446391123750}
   - component: {fileID: 45612311352804240}
+  - component: {fileID: 114482555765939344}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -725,15 +726,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaculo:
   - {fileID: 1388086323642028, guid: 8b6dde3185d16154dbfab381b6514999, type: 2}
+  - {fileID: 1388086323642028, guid: 8b6dde3185d16154dbfab381b6514999, type: 2}
+  - {fileID: 1388086323642028, guid: 8b6dde3185d16154dbfab381b6514999, type: 2}
+  - {fileID: 1213779628581124, guid: 90ace4723ee2ff24f8bc5b4819c3f848, type: 2}
   - {fileID: 1168202012997556, guid: abd7a30a835581141943e6e1623a8a77, type: 2}
+  - {fileID: 1168202012997556, guid: abd7a30a835581141943e6e1623a8a77, type: 2}
+  - {fileID: 1168202012997556, guid: abd7a30a835581141943e6e1623a8a77, type: 2}
+  - {fileID: 1213779628581124, guid: 90ace4723ee2ff24f8bc5b4819c3f848, type: 2}
+  - {fileID: 1829270052067566, guid: 88e3cd0c7c3f3f44996e3740e439196b, type: 2}
   - {fileID: 1145729199930656, guid: 000fb3ffdd8944248b88c5100679a504, type: 2}
   - {fileID: 1145729199930656, guid: c5e6a62e7a84ff04484e46b7d5dfabfc, type: 2}
   - {fileID: 1145729199930656, guid: 0b8243fac07eeed4ca5381ec29edfae3, type: 2}
-  - {fileID: 1829270052067566, guid: 88e3cd0c7c3f3f44996e3740e439196b, type: 2}
-  - {fileID: 1388086323642028, guid: 8b6dde3185d16154dbfab381b6514999, type: 2}
-  - {fileID: 1388086323642028, guid: 8b6dde3185d16154dbfab381b6514999, type: 2}
-  - {fileID: 1168202012997556, guid: abd7a30a835581141943e6e1623a8a77, type: 2}
-  - {fileID: 1168202012997556, guid: abd7a30a835581141943e6e1623a8a77, type: 2}
+  - {fileID: 1213779628581124, guid: 90ace4723ee2ff24f8bc5b4819c3f848, type: 2}
+  - {fileID: 1213779628581124, guid: 90ace4723ee2ff24f8bc5b4819c3f848, type: 2}
   tiempoMin: 1.5
   tiempoMax: 2.5
 --- !u!114 &114281446391123750
@@ -789,6 +794,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 0.1
+--- !u!114 &114482555765939344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1767316037521608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 422d826e6a2f488409e6849db4b57f67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wantedAspectRatio: 2.21
 --- !u!114 &114796607986135508
 MonoBehaviour:
   m_ObjectHideFlags: 1
