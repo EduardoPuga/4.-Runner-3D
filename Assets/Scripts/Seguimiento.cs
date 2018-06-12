@@ -22,7 +22,7 @@ public class Seguimiento : MonoBehaviour {
 	}
 
 	public void updateIndex(int forma){
-		Debug.Log("setting forma: " + forma + " a " + players [index].name);
+		Debug.Log("setting forma: " + index + " a " + players [index].name);
 
 		players [index].SetActive (false);
 		index=forma;

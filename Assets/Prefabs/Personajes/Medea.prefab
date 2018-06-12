@@ -130,15 +130,13 @@ GameObject:
   - component: {fileID: 198160253784983836}
   - component: {fileID: 199522210633827236}
   - component: {fileID: 114192012644474576}
-  - component: {fileID: 65807986836708350}
-  - component: {fileID: 65955743918110558}
   m_Layer: 0
   m_Name: Medea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1139790952032346
 GameObject:
   m_ObjectHideFlags: 0
@@ -1989,32 +1987,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.5, z: 1}
-  m_Center: {x: 0, y: -1.8, z: 0}
---- !u!65 &65807986836708350
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1137054664665734}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.5, z: 1}
-  m_Center: {x: 0, y: 1.4, z: 0.15}
---- !u!65 &65955743918110558
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1137054664665734}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.5, z: 1}
-  m_Center: {x: 0, y: 1.4, z: 0.15}
+  m_Size: {x: 1, y: 3.6955447, z: 1.2091172}
+  m_Center: {x: 0, y: -0.20222759, z: 0.10455868}
 --- !u!95 &95414379211022276
 Animator:
   serializedVersion: 3
@@ -2045,7 +2019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   verticalSpeed: 6
   anatomia: 1
-  mainCamera: {fileID: 1767316037521608, guid: 9746c01e335d7294c9eb0ac4fb415489, type: 2}
+  mainCamera: {fileID: 0}
 --- !u!137 &137686669798785934
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -2214,7 +2188,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -106794418
+  randomSeed: -503922833
   InitialModule:
     serializedVersion: 3
     enabled: 1
