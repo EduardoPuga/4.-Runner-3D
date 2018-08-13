@@ -22,10 +22,11 @@ public class Seguimiento : MonoBehaviour {
 	}
 
 	public void updateIndex(int forma){
+		var exp = GetComponent<ParticleSystem> ();
 		Debug.Log("setting forma: " + index + " a " + players [index].name);
-
 		players [index].SetActive (false);
 		index=forma;
+		exp.Play();
 		players [index].SetActive (true);
 		//index = anatomia-1;
 		Debug.Log("nueva forma: " + index + " y es " + players [index].name);

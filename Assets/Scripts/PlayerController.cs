@@ -25,28 +25,28 @@ public class PlayerController :  MonoBehaviour  {
 		Debug.Log (anatomia);
 
 
-		if (Input.GetKeyDown (KeyCode.Alpha1) /*&& anatomia != 1*/) {
-//			Cambio ();
+		if (Input.GetKeyDown (KeyCode.Alpha1) && anatomia != 1) {
+			Cambio ();
 			updateIndex (1);
 			//gameObject.GetComponent<Rigidbody> ().useGravity = true;
 			Debug.Log (gameObject.name + " ; Forma = " + anatomia + " y recibio tecla: 1");
 		}
 
-		if (Input.GetKeyDown (KeyCode.Alpha2) /*&& anatomia != 2*/) {
-//			Cambio ();
+		if (Input.GetKeyDown (KeyCode.Alpha2) && anatomia != 2) {
+			Cambio ();
 			updateIndex (2);
 			//gameObject.GetComponent<Rigidbody> ().useGravity = false;
 			Debug.Log (gameObject.name + " ; Forma = " + anatomia + " y recibio tecla: 2");
 		}
 
-		if (Input.GetKeyDown (KeyCode.Alpha3) /*&& anatomia != 3*/) {
-//			Cambio ();
+		if (Input.GetKeyDown (KeyCode.Alpha3) && anatomia != 3) {
+			Cambio ();
 			updateIndex (3);
 			//gameObject.GetComponent<Rigidbody> ().useGravity = true;
 			Debug.Log (gameObject.name + " ; Forma = " + anatomia + " y recibio tecla: 3");
 		}
-		if (Input.GetKeyDown (KeyCode.Alpha4) /*&& anatomia != 4*/) {
-//			Cambio ();
+		if (Input.GetKeyDown (KeyCode.Alpha4) && anatomia != 4) {
+			Cambio ();
 			updateIndex (4);
 			//gameObject.GetComponent<Rigidbody> ().useGravity = true;
 			Debug.Log ("Forma = " + anatomia);

@@ -577,7 +577,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Para moverte por el escenario \n\n\nsolo necesitas las teclas\n\n\n\ny"
+  m_Text: "Cambia de forma con \"1\" y \"2\" \nPara moverte por el escenario \n\nsolo
+    necesitas las teclas\n\n\n\ny"
 --- !u!222 &1876850571
 CanvasRenderer:
   m_ObjectHideFlags: 0
